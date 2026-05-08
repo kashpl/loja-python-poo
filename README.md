@@ -46,16 +46,15 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-3. Execute a versao POO:
+3. Execute o programa:
 
 ```powershell
-python "testbot usando (POO).py"
+python main.py
 ```
 
 ## Arquivos principais
 
-- `testbot usando (POO).py`: versao orientada a objetos.
-- `testbot sem o (POO).py`: versao sem orientacao a objetos.
+- `main.py`: versao orientada a objetos do projeto.
 
 ## Arquivos gerados
 
