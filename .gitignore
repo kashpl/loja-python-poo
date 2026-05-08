@@ -1,0 +1,15 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+.idea/
+.vscode/
+
+notas_fiscais/
+suporte_contatos.txt
+
+.env
+*.log
+*.pdf
