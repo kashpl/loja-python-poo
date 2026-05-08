@@ -1,7 +1,35 @@
-# Bot de loja em Python
+# Loja C & IA
 
-Projeto de interface grafica para simular uma loja, carrinho de compras,
-atendimento e geracao de nota fiscal usando Python com CustomTkinter.
+Este projeto foi desenvolvido durante o curso de Programador de Sistemas no
+Senac, com o objetivo de aplicar conceitos de POO em uma interface grafica.
+A ideia foi criar uma loja simples, com catalogo de produtos, carrinho,
+checkout, atendimento ao cliente e geracao de nota fiscal.
+
+![Tela do programa](assets/tela-programa.png)
+
+## Sobre o projeto
+
+O sistema simula o atendimento de uma loja chamada **Loja C & IA**. A tela
+principal permite pesquisar produtos, adicionar itens ao carrinho e finalizar
+a compra informando os dados do cliente.
+
+A versao principal usa Programacao Orientada a Objetos para organizar a logica
+em uma classe de aplicacao, deixando as funcoes de interface, carrinho,
+checkout e nota fiscal mais faceis de entender e manter.
+
+## Logica do frete
+
+Para deixar o projeto mais proximo de um caso real, escolhi alguns bairros de
+Fortaleza para simular a entrega. Cada bairro possui um valor de frete
+diferente:
+
+- Aldeota: R$ 15,00
+- Centro: R$ 10,00
+- Messejana: R$ 20,00
+- Benfica: R$ 12,00
+
+No checkout, o programa soma o subtotal dos produtos com o frete do bairro
+selecionado e mostra o total final da compra.
 
 ## Como executar
 
